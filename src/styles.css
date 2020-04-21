@@ -9,13 +9,18 @@ body {
 }
 
 div {
-  width: 100%;
-  margin: 20px;
+  max-width: 700px;
+  margin: 20px auto;
+  background: #ccc;
+  padding: 020px;
+  border-radius: 4px;
 }
 
 div li {
   display: flex;
   align-items: center;
+  color: #4928b4;
+  justify-content: space-between;
 }
 
 div li + li {
@@ -31,9 +36,11 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  border-radius: 4px;;
 }
 
 div li button {
-  margin: 0 15px;
+
   background: #ca4949;
 }
+
